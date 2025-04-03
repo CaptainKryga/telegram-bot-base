@@ -1,0 +1,6 @@
+﻿services:
+  telegrambot.service:
+    image: telegrambot.service
+    build:
+      context: .
+      dockerfile: Dockerfile
